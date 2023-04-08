@@ -1,5 +1,8 @@
 import ast
+import nltk
 from nltk.corpus import stopwords
+
+nltk.data.path.append('/nltk_data')
 
 def apply_nList(item, fun):
     '''applies generic function to innermost nested list'''

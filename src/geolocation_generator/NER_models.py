@@ -7,6 +7,8 @@ from .geonameslocator import match_with_gazetteer
 #from transformers import pipeline
 
 
+nltk.data.path.append('/nltk_data')
+
 #load models for every language. Load once per session
 def load_spacy_models():
     global nlp_LANG
