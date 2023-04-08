@@ -3,7 +3,7 @@ import pandas as pd
 import nltk
 from nltk.tokenize import RegexpTokenizer
 
-nltk.data.path.append('/nltk_data')
+#nltk.data.path.append('/nltk_data')
 
 #load gazetteer
 def load_gazetteer(locdictionary, locationdata):

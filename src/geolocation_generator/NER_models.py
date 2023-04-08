@@ -1,13 +1,13 @@
 import spacy
 import re
-import nltk
+#import nltk
 from nltk.corpus import stopwords
 from .geonameslocator import match_with_gazetteer
 #from transformers import AutoTokenizer, AutoModelForTokenClassification
 #from transformers import pipeline
 
 
-nltk.data.path.append('/nltk_data')
+#nltk.data.path.append('/nltk_data')
 
 #load models for every language. Load once per session
 def load_spacy_models():
